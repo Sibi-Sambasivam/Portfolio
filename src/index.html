@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Sibi Sambasivam | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="sibi-sambasivam, Sibi, JavaScript" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Sibi Sambasivam | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Sibi Sambasivam</span>
+          <br />
+          I'm the Developer you need.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Hire Me</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text" style="text-align: justify;">
+                As a computer science graduate with a passion for cutting-edge technology and a drive to solve real-world problems, I bring over 2 years of experience in software development and graphic design to the table. Holding an M.Sc. in International Software Systems Science from Otto-Friedrich Universität Bamberg, I am equipped with the skills and knowledge to innovate and create impactful solutions in the ever-evolving landscape of technology.
+              </p>
+              <p class="about-wrapper__info-text" style="text-align: justify;">
+                Proficient in a diverse range of technologies, including Java, MySQL, Python, HTML, CSS, JavaScript, React, Angular, TypeScript, Firebase, Node.js, Express.js, PostgreSQL, GitHub, Docker, Adobe Creative Suite, and various IDEs.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Web Scraping with Beautiful Soup</h3>
+                <div>
+                  <p class="mb-4" style="text-align: justify;">
+                    Scraped news articles from the Hacker News platform using the Requests library to fetch web pages and BeautifulSoup for HTML parsing. Extracted article titles, links, and votes from the fetched pages, filtering out those with less than 100 votes. Sorted the articles by the number of votes and printed them out in a structured format.<br>
+                    <i>Software and Tools : Python, Beautiful Soup</i>
+
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Webscrape.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Password Checker</h3>
+                <div>
+                  <p class="mb-4" style="text-align: justify;">
+                    Facilitating secure password verification, the Have I Been Pwned API is harnessed to determine if a password has been compromised in data breaches. Utilizing SHA-1 encryption, passwords are hashed, and a partial hash is sent to the API over a secure connection. Upon receiving a list of leaked password hashes with matching prefixes, the tail of the hash is locally compared to assess if the password has been compromised, prioritizing user privacy alongside robust security measures.<br>
+                    <i>Software and Tools : Python, "Have I Been Pwned" API</i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Passwordchecker.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Robofriends</h3>
+                <div>
+                  <p class="mb-4" style="text-align: justify;">
+                    Employed ReactJS to build a highly responsive project that seamlessly retrieves data from an API. The application facilitates interactive searching, offering users a smooth and efficient experience while exploring and interacting with a diverse array of robots.<br>
+                    <i>Software and Tools : HTML, CSS, Javascript, ReactJS and Robohash API</i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Robofriends.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Background Generator</h3>
+                <div>
+                  <p class="mb-4" style="text-align: justify;">
+                   Leveraged the power of JavaScript to craft an engaging generator, enabling real-time updates of gradient backgrounds seamlessly across web browsers. By tapping into JavaScript's versatility, this project establishes a captivating user experience where gradient backgrounds dynamically evolve with each user interaction. Through meticulously designed functions and event listeners, the background seamlessly transitions between colors selected by the user or generated randomly, all while providing instant feedback.<br>
+                    <i>Software and Tools : HTML, CSS and JavaScript</i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Backgroundgenerator.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Startup Landing Page</h3>
+                <div>
+                  <p class="mb-4" style="text-align: justify;">
+                    Developed a landing page for a fictional YouTube channel with modern HTML & CSS. Incorporated the Mailchimp service to collect the emails of potential subscribers interested in the new channel.<br>
+                    <i>Software and Tools : HTML, CSS and MailChimp</i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/LandingPage.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+   
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">If you are interested,</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:sibisambasivam2@gmail.com"
+            >Email Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/sibi-sambasivam/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/Sibi-Sambasivam" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.youtube.com/@VZEFilms" target="_blank">
+            <i class="fa fa-youtube fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.instagram.com/s.sibi_/" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          
+          <a rel="noreferrer" href="https://github.com/Sibi-Sambasivam" target="_blank"
+            >Bamberg, Germany</a
+          >
+        </p>
+
+  
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
